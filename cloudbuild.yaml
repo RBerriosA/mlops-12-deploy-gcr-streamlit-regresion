@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-f', 'Dockerfile.prod', '-t', 'us-central1-docker.pkg.dev/project-mlops12-rafael-berrios/repo-mlops12-api/image-v1-mlops12-m2s1-api:latest', '.']
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', 'us-central1-docker.pkg.dev/project-mlops12-rafael-berrios/repo-mlops12-api/image-v1-mlops12-m2s1-api:latest']
