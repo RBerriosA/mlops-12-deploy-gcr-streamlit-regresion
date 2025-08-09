@@ -1,9 +1,9 @@
 name: Deploy to Cloud Run
 
 env:
-  SERVICE_NAME: servicio-fastapi-kevin-inofuente
-  PROJECT_ID: project-mlops-10-streamlit
-  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/project-mlops-10-streamlit/repo-deploy-fastapi-cicd/image-v3-deploy-fastapi-cicd
+  SERVICE_NAME: servicio-api-mlops12-m2s1-rafael-berrios
+  PROJECT_ID: project-mlops12-rafael-berrios
+  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/project-mlops12-rafael-berrios/repo-mlops12-api-streamlit-m2s4/image-v1-mlops12-m2s1-api
 
 on:
   push:
