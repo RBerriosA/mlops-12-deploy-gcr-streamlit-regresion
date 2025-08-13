@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 import joblib
-from src.configuraciones import config
+from configuraciones import config
 
 import subprocess
 
