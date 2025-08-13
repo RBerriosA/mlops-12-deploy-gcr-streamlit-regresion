@@ -3,7 +3,7 @@ name: Deploy to Cloud Run
 env:
   SERVICE_NAME: servicio-api-mlops12-m2s1-rafael-berrios
   PROJECT_ID: project-mlops12-rafael-berrios
-  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/project-mlops12-rafael-berrios/repo-mlops12-api-streamlit-m2s4/image-v1-mlops12-m2s1-api
+  DOCKER_IMAGE_URL: us-central1-docker.pkg.dev/project-mlops12-rafael-berrios/repo-mlops12-api-streamlit-m2s4/image-v1-mlops12-m2s4-api
 
 on:
   push:
