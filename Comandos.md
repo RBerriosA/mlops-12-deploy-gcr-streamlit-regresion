@@ -2,7 +2,7 @@
 gcloud init
 
 ## Paso 1: Creación del repositorio
-gcloud artifacts repositories create repo-mlops12-api-streamlit-m2s4 --repository-format docker --project project-mlops12-rafael-berrios --location us-central1
+gcloud artifacts repositories create repo-mlops12-api-streamlit-m2s6-modelo-pycaret --repository-format docker --project project-mlops12-rafael-berrios --location us-central1
 
 ## A mano
 
@@ -19,7 +19,7 @@ gcloud run services set-iam-policy servicio-api-mlops12-m2s1-rafael-berrios gcr-
 
 git init
 git add . 
-git commit -m "Proyecto de automatización de despliegue en GCR"
+git commit -m "Proyecto de automatización de despliegue en GCR con pycaret M2S6"
 git branch -M main
 git remote add origin https://github.com/RBerriosA/mlops-12-deploy-gcr-streamlit-regresion.git
 git push -u origin main
